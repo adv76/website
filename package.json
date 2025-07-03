@@ -20,7 +20,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.11",
+    "@threlte/core": "^8.0.5",
+    "@threlte/extras": "^9.4.0",
+    "@types/three": "^0.178.0",
     "locomotive-scroll": "^4.1.4",
-    "tailwindcss": "^4.0.11"
+    "tailwindcss": "^4.0.11",
+    "three": "^0.178.0"
   }
 }
