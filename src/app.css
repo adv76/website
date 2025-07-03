@@ -2,6 +2,16 @@
 
 @import "tailwindcss";
 
+@font-face {  
+    font-family: "Cascadia Code";  
+    font-style: normal;  
+    font-weight: 400 500 600 700;  
+    font-display: swap;  
+    src: url("./assets/CascadiaCode.woff2") 
+    format("woff2");
+}
+
 @theme {
     --font-serif: "Spectral", serif;
+    --font-mono: "Cascadia Code", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
